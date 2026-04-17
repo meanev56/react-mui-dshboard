@@ -4,9 +4,9 @@ import { theme } from "./theme/theme";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import Dashboard from "./components/Dashboard/Dashboard";
 import AllPages from "./pages/AllPages";
-// import Reports from "./pages/Reports";
-// import Products from "./pages/Products";
-// import Task from "./pages/Task";
+import Reports from "./pages/Reports";
+import Products from "./pages/Products";
+import Task from "./pages/Task";
 // import Features from "./pages/Features";
 // import Users from "./pages/Users";
 // import Pricing from "./pages/Pricing";
@@ -37,9 +37,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/all-pages" element={<AllPages />} />
-              {/* <Route path="/reports" element={<Reports />} /> */}
-              {/* <Route path="/products" element={<Products />} /> */}
-              {/* <Route path="/task" element={<Task />} /> */}
+              <Route path="/reports" element={<Reports />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/task" element={<Task />} />
               {/* <Route path="/features" element={<Features />} /> */}
               {/* <Route path="/users" element={<Users />} /> */}
               {/* <Route path="/pricing" element={<Pricing />} /> */}

@@ -17,6 +17,8 @@
     "@mui/material": "^9.0.0",
     "@mui/styled-engine-sc": "^9.0.0",
     "@mui/x-data-grid": "^9.0.2",
+    "echarts": "^6.0.0",
+    "echarts-for-react": "^3.0.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.14.1",
