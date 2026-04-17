@@ -7,13 +7,13 @@ import AllPages from "./pages/AllPages";
 import Reports from "./pages/Reports";
 import Products from "./pages/Products";
 import Task from "./pages/Task";
-// import Features from "./pages/Features";
-// import Users from "./pages/Users";
-// import Pricing from "./pages/Pricing";
-// import Integrations from "./pages/Integrations";
-// import Settings from "./pages/Settings";
+import Features from "./pages/Features";
+import Users from "./pages/Users";
+import Pricing from "./pages/Pricing";
+import Integrations from "./pages/Integrations";
+import Settings from "./pages/Settings";
 // import Templates from "./pages/Templates";
-// import Buoys from "./pages/Buoys";
+import Buoys from "./pages/Buoys";
 
 function App() {
   return (
@@ -40,12 +40,12 @@ function App() {
               <Route path="/reports" element={<Reports />} />
               <Route path="/products" element={<Products />} />
               <Route path="/task" element={<Task />} />
-              {/* <Route path="/features" element={<Features />} /> */}
-              {/* <Route path="/users" element={<Users />} /> */}
-              {/* <Route path="/pricing" element={<Pricing />} /> */}
-              {/* <Route path="/integrations" element={<Integrations />} /> */}
-              {/* <Route path="/buoys" element={<Buoys />} /> */}
-              {/* <Route path="/settings" element={<Settings />} /> */}
+              <Route path="/features" element={<Features />} />
+              <Route path="/users" element={<Users />} />
+              <Route path="/pricing" element={<Pricing />} />
+              <Route path="/integrations" element={<Integrations />} />
+              <Route path="/buoys" element={<Buoys />} />
+              <Route path="/settings" element={<Settings />} />
               {/* <Route path="/templates" element={<Templates />} /> */}
             </Routes>
           </Box>
