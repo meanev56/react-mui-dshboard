@@ -12,7 +12,7 @@ import Users from "./pages/Users";
 import Pricing from "./pages/Pricing";
 import Integrations from "./pages/Integrations";
 import Settings from "./pages/Settings";
-// import Templates from "./pages/Templates";
+import Templates from "./pages/Templates";
 import Buoys from "./pages/Buoys";
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
               <Route path="/integrations" element={<Integrations />} />
               <Route path="/buoys" element={<Buoys />} />
               <Route path="/settings" element={<Settings />} />
-              {/* <Route path="/templates" element={<Templates />} /> */}
+              <Route path="/templates" element={<Templates />} />
             </Routes>
           </Box>
         </Box>
